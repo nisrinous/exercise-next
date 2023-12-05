@@ -2,6 +2,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { useRouter } from "next/router";
 import React, { ReactNode } from "react";
+import { Provider } from "react-redux";
+import { store } from "@/store/store";
 
 type Layout = {
   children: ReactNode;
@@ -14,12 +16,12 @@ export default function Layout({ children }: Layout) {
   if (router.pathname.includes("/auth/signup")) return children;
 
   return (
-    <>
+    <Provider store={store}>
       <div className="flex flex-col items-center justify-center">
         <Header />
         <div>{children}</div>
         <Footer />
       </div>
-    </>
+    </Provider>
   );
 }

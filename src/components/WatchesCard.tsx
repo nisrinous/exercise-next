@@ -1,4 +1,6 @@
+import { increment } from "@/store/slices/cartBadgeSlice";
 import { useState } from "react";
+import { useDispatch } from "react-redux";
 
 export default function WatchesCard({
   disc,
@@ -14,16 +16,21 @@ export default function WatchesCard({
   price: string;
 }): JSX.Element {
   const [isClick, setIsClick] = useState(false);
-  const isLoading = true;
+
+  const dispatch = useDispatch();
 
   const handleCardClick = () => {
     setIsClick(!isClick);
   };
 
+  const handleAddtoCart = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.stopPropagation();
+    dispatch(increment());
+  };
   return (
     <>
       <div
-        className={`relative w-[255px] bg-white text-left p-6 ${
+        className={`relative hover:cursor-pointer w-[255px] bg-white text-left p-6 ${
           isClick ? "h-[462px]" : "h-[403px]"
         }`}
         onClick={handleCardClick}
@@ -72,7 +79,10 @@ export default function WatchesCard({
                     />
                   </svg>
                 </button>
-                <button className="bg-[#D84727] border-[#D84727] border-2 h-[39px] w-[158px] rounded-none text-white flex flex-row px-2 justify-around text-lg items-center">
+                <button
+                  className="bg-[#D84727] border-[#D84727] border-2 h-[39px] w-[158px] rounded-none text-white flex flex-row px-2 justify-around text-lg items-center"
+                  onClick={handleAddtoCart}
+                >
                   Add to cart
                 </button>
               </div>

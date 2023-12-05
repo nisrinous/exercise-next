@@ -1,6 +1,10 @@
+import { RootState } from "@/store/store";
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 export default function Header(): JSX.Element {
+  const counter = useSelector((state: RootState) => state.cartBadge.counter);
+
   return (
     <header className="w-[95%] md:w-[70%] lg:w-[60%] flex mt-7 md:mt-10 justify-between">
       <div className="items-center w-[120px] md:w-[178px] mt-4 md:mt-3">
@@ -39,7 +43,7 @@ export default function Header(): JSX.Element {
               <img src="/cart.png"></img>
             </button>
             <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs leading-none text-white transform translate-x-[15%] -translate-y-1/5 bg-[#D84727] rounded-full">
-              1
+              {counter}
             </span>
           </span>
         </li>
