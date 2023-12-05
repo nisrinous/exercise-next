@@ -34,7 +34,14 @@ export default function Header(): JSX.Element {
           <Link href="/auth/login">Login</Link>
         </li>
         <li className="flex ">
-          <img src="/cart.png"></img>
+          <span className="relative inline-block">
+            <button>
+              <img src="/cart.png"></img>
+            </button>
+            <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs leading-none text-white transform translate-x-[15%] -translate-y-1/5 bg-[#D84727] rounded-full">
+              1
+            </span>
+          </span>
         </li>
       </ul>
     </header>

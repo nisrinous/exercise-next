@@ -1,11 +1,36 @@
 import Headline from "@/components/Headline";
-import Jumbotron from "@/components/Jumbotron";
+import Skeleton from "@/components/Skeleton";
 import WatchesCard from "@/components/WatchesCard";
+import { useState } from "react";
 
 export default function Watches() {
+  const watchesData = [
+    {
+      image: "/image1.png",
+      title: "Singo Maple",
+      fullPrice: "1.500.000",
+      price: "1.264.000",
+      disc: "20",
+    },
+    {
+      image: "/image1.png",
+      title: "Sikka (Ebony & Maple)",
+      price: "1.264.000",
+      disc: "NEW",
+    },
+    { image: "/image1.png", title: "Sunda", price: "1.264.000" },
+    {
+      image: "/image1.png",
+      title: "Singo Maple",
+      fullPrice: "1.280.000",
+      price: "960.000",
+      disc: "25",
+    },
+  ];
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   return (
     <div>
-      <div className="my-20 flex gap-2 items-center justify-between">
+      <div className="my-16 flex gap-2 items-center justify-between">
         <Headline title="Watches" />
         <input
           type="text"
@@ -33,121 +58,15 @@ export default function Watches() {
       </div>
 
       <div className="flex flex-col gap-3">
-        <div className="flex flex-row gap-6">
-          <WatchesCard
-            image="/image1.png"
-            title="Singo Maple"
-            fullPrice="1.500.000"
-            price="1.264.000"
-            disc="20"
-          />
-          <WatchesCard
-            image="/image1.png"
-            title="Sikka (Ebony & Maple)"
-            price="1.264.000"
-            disc="NEW"
-          />
-          <WatchesCard image="/image1.png" title="Sunda" price="1.264.000" />
-          <WatchesCard
-            image="/image1.png"
-            title="Singo Maple"
-            fullPrice="1.280.000"
-            price="960.000"
-            disc="25"
-          />
-        </div>
-        <div className="my-16 flex flex-row gap-6">
-          <WatchesCard
-            image="/image1.png"
-            title="Singo Maple"
-            fullPrice="1.500.000"
-            price="1.264.000"
-            disc="20"
-          />
-          <WatchesCard
-            image="/image1.png"
-            title="Sikka (Ebony & Maple)"
-            price="1.264.000"
-            disc="NEW"
-          />
-          <WatchesCard image="/image1.png" title="Sunda" price="1.264.000" />
-          <WatchesCard
-            image="/image1.png"
-            title="Singo Maple"
-            fullPrice="1.280.000"
-            price="960.000"
-            disc="25"
-          />
-        </div>
-        <div className="flex flex-row gap-6">
-          <WatchesCard
-            image="/image1.png"
-            title="Singo Maple"
-            fullPrice="1.500.000"
-            price="1.264.000"
-            disc="20"
-          />
-          <WatchesCard
-            image="/image1.png"
-            title="Sikka (Ebony & Maple)"
-            price="1.264.000"
-            disc="NEW"
-          />
-          <WatchesCard image="/image1.png" title="Sunda" price="1.264.000" />
-          <WatchesCard
-            image="/image1.png"
-            title="Singo Maple"
-            fullPrice="1.280.000"
-            price="960.000"
-            disc="25"
-          />
-        </div>
-        <div className="my-16 flex flex-row gap-6">
-          <WatchesCard
-            image="/image1.png"
-            title="Singo Maple"
-            fullPrice="1.500.000"
-            price="1.264.000"
-            disc="20"
-          />
-          <WatchesCard
-            image="/image1.png"
-            title="Sikka (Ebony & Maple)"
-            price="1.264.000"
-            disc="NEW"
-          />
-          <WatchesCard image="/image1.png" title="Sunda" price="1.264.000" />
-          <WatchesCard
-            image="/image1.png"
-            title="Singo Maple"
-            fullPrice="1.280.000"
-            price="960.000"
-            disc="25"
-          />
-        </div>
-        <div className="my-16 flex flex-row gap-6">
-          <WatchesCard
-            image="/image1.png"
-            title="Singo Maple"
-            fullPrice="1.500.000"
-            price="1.264.000"
-            disc="20"
-          />
-          <WatchesCard
-            image="/image1.png"
-            title="Sikka (Ebony & Maple)"
-            price="1.264.000"
-            disc="NEW"
-          />
-          <WatchesCard image="/image1.png" title="Sunda" price="1.264.000" />
-          <WatchesCard
-            image="/image1.png"
-            title="Singo Maple"
-            fullPrice="1.280.000"
-            price="960.000"
-            disc="25"
-          />
-        </div>
+        {[...Array(5)].map((_, index) => (
+          <div key={index} className="my-3 flex flex-row gap-6">
+            {isLoading
+              ? watchesData.map((watch, i) => <Skeleton key={index} />)
+              : watchesData.map((watch, i) => (
+                  <WatchesCard key={i} {...watch} />
+                ))}
+          </div>
+        ))}
       </div>
     </div>
   );

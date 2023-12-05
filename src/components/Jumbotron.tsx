@@ -1,6 +1,6 @@
 export default function Jumbotron(): JSX.Element {
   return (
-    <div className="relative my-16">
+    <div className="relative my-16 container">
       <div className="overflow-hidden bg-[#F1DDC9] text-center">
         <img className="cover" src="/rectangle1.png" alt="rectangle" />
         <div className="absolute -top-7 -right-40">
@@ -18,7 +18,7 @@ export default function Jumbotron(): JSX.Element {
             />
           </svg>
         </div>
-        <div className="absolute top-10 -right-40">
+        <div className="absolute top-5 -right-40">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="686"
@@ -33,7 +33,7 @@ export default function Jumbotron(): JSX.Element {
             />
           </svg>
         </div>
-        <div className="absolute top-[6.5rem] -right-40">
+        <div className="absolute top-16 -right-40">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="679"
