@@ -1,12 +1,11 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { useRouter } from "next/router";
-import React, { ReactNode } from "react";
 import { Provider } from "react-redux";
 import { store } from "@/store/store";
 
 type Layout = {
-  children: ReactNode;
+  children: React.ReactNode;
 };
 
 export default function Layout({ children }: Layout) {

@@ -1,6 +1,6 @@
 export default function Footer(): JSX.Element {
   return (
-    <div className="bg-[#D84727] w-full h-[700px] my-20">
+    <div className="bg-[#D84727] w-full h-[700px] mt-20">
       <div className="bg-[#DA5E42] w-full h-[273px] items-center my-14">
         <div className="flex flex-col justify-center h-full px-10 md:px-32 xl:px-80">
           <ul className="flex flex-row justify-evenly">

@@ -1,62 +1,58 @@
-import { increment } from "@/store/slices/cartBadgeSlice";
 import { useState } from "react";
-import { useDispatch } from "react-redux";
+import ButtonAddToCart from "./ButtonAddToCart";
 
 export default function WatchesCard({
   disc,
   title,
   price,
-  fullPrice,
+  fullprice,
   image,
+  isNew,
 }: {
   disc?: string | undefined;
   title: string;
-  fullPrice?: string | undefined;
+  fullprice?: string | undefined;
   image: string;
   price: string;
+  isNew?: boolean;
 }): JSX.Element {
   const [isClick, setIsClick] = useState(false);
 
-  const dispatch = useDispatch();
-
   const handleCardClick = () => {
     setIsClick(!isClick);
-  };
-
-  const handleAddtoCart = (e: React.MouseEvent<HTMLButtonElement>) => {
-    e.stopPropagation();
-    dispatch(increment());
   };
   return (
     <>
       <div
         className={`relative hover:cursor-pointer w-[255px] bg-white text-left p-6 ${
-          isClick ? "h-[462px]" : "h-[403px]"
+          isClick
+            ? "h-[462px] shadow-[2px_3px_10px_4px_#D8472726]"
+            : "h-[403px]"
         }`}
         onClick={handleCardClick}
       >
         <div className="relative">
-          {disc === "NEW" ? (
+          {isNew ? (
             <div className="absolute -top-10 right-0">
               <button className="bg-[#01522D] border-none h-[34px] w-[90px] rounded-none text-white flex flex-row px-2 justify-around text-lg items-center">
-                {disc}
+                NEW
               </button>
             </div>
-          ) : disc === undefined ? null : (
+          ) : disc !== undefined ? (
             <div className="absolute -top-10 right-0">
               <button className="bg-[#D84727] border-none h-[34px] w-[103px] rounded-none text-white flex flex-row px-2 justify-around text-lg items-center">
                 {disc}% OFF
               </button>
             </div>
-          )}
+          ) : null}
         </div>
         <div className="">
-          <img className="my-4 -top-16" src={image}></img>
+          <img className="my-3 -top-16" src={image}></img>
 
           <h2 className="text-2xl mb-1 ">{title}</h2>
-          {fullPrice ? (
+          {fullprice ? (
             <p className="mt-3 line-through decoration-[#D93F3F] text-[#777]">
-              Rp {fullPrice}
+              Rp {fullprice}
             </p>
           ) : null}
           <p className="mt-1 mb-3 text-2xl">Rp {price}</p>
@@ -79,12 +75,7 @@ export default function WatchesCard({
                     />
                   </svg>
                 </button>
-                <button
-                  className="bg-[#D84727] border-[#D84727] border-2 h-[39px] w-[158px] rounded-none text-white flex flex-row px-2 justify-around text-lg items-center"
-                  onClick={handleAddtoCart}
-                >
-                  Add to cart
-                </button>
+                <ButtonAddToCart />
               </div>
             </div>
           ) : null}

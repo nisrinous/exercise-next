@@ -1,8 +1,9 @@
-import Header from "@/components/Header";
 import Headline from "@/components/Headline";
 import Jumbotron from "@/components/Jumbotron";
 import MainCard from "@/components/MainCard";
+import RecentNews from "@/components/RecentNews";
 import SecondaryCard from "@/components/SecondaryCard";
+import SeriesAndFeatured from "@/components/SeriesAndFeatured";
 
 export default function Home() {
   return (
@@ -29,32 +30,34 @@ export default function Home() {
           image="/image1.png"
           title="Singo Maple"
           disc="20"
-          fullPrice="1.500.000"
+          fullprice="1.500.000"
           price="1.264.000"
         />
         <SecondaryCard
           image="/image1.png"
           title="Singo Maple"
           disc="20"
-          fullPrice="1.500.000"
+          fullprice="1.500.000"
           price="1.264.000"
         />
         <SecondaryCard
           image="/image2.png"
           title="Way Kambas Mini"
           disc="20"
-          fullPrice="1.500.000"
+          fullprice="1.500.000"
           price="1.264.000"
         />
         <SecondaryCard
           image="/image3.png"
           title="Rakai Ebony"
           disc="20"
-          fullPrice="1.500.000"
+          fullprice="1.500.000"
           price="1.264.000"
         />
       </div>
       <Headline title="Recent News" />
+      <RecentNews />
+      <SeriesAndFeatured />
     </div>
   );
 }

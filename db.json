@@ -1,0 +1,281 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Citizen",
+      "fullprice": 489.62,
+      "price": 580.22,
+      "isNew": true,
+      "image": "/image9.png"
+    },
+    {
+      "id": 2,
+      "name": "Casio",
+      "fullprice": 299.66,
+      "price": 189.92,
+      "discount": 7,
+      "image": "/image41.png"
+    },
+    {
+      "id": 3,
+      "name": "Casio",
+      "fullprice": 565.09,
+      "price": 28.61,
+      "discount": 60,
+      "image": "/image42.png"
+    },
+    {
+      "id": 4,
+      "name": "Swatch",
+      "fullprice": 867.17,
+      "price": 871.98,
+      "discount": 19,
+      "image": "/image9.png"
+    },
+    {
+      "id": 5,
+      "name": "Seiko",
+      "fullprice": 594.78,
+      "price": 503.49,
+      "discount": 67,
+      "image": "/image9.png"
+    },
+    {
+      "id": 6,
+      "name": "Rolex",
+      "fullprice": 112.04,
+      "price": 206.19,
+      "discount": 31,
+      "image": "/image41.png"
+    },
+    {
+      "id": 7,
+      "name": "Timex",
+      "fullprice": 902.56,
+      "price": 143.31,
+      "discount": 3,
+      "image": "/image42.png"
+    },
+    {
+      "id": 8,
+      "name": "Omega",
+      "fullprice": 686.71,
+      "price": 632.96,
+      "discount": 70,
+      "image": "/image9.png"
+    },
+    {
+      "id": 9,
+      "name": "Omega",
+      "fullprice": 63.55,
+      "price": 529.4,
+      "discount": 44,
+      "image": "/image9.png"
+    },
+    {
+      "id": 10,
+      "name": "Timex",
+      "fullprice": 709.45,
+      "price": 802.2,
+      "discount": 24,
+      "image": "/image41.png"
+    },
+    {
+      "id": 11,
+      "name": "Fossil",
+      "fullprice": 848.36,
+      "price": 929.89,
+      "discount": 34,
+      "image": "/image42.png"
+    },
+    {
+      "id": 12,
+      "name": "Omega",
+      "fullprice": 621.57,
+      "price": 521.82,
+      "discount": 0,
+      "image": "/image9.png"
+    },
+    {
+      "id": 13,
+      "name": "Fossil",
+      "fullprice": 412.92,
+      "price": 569.54,
+      "discount": 44,
+      "image": "/image9.png"
+    },
+    {
+      "id": 14,
+      "name": "Citizen",
+      "fullprice": 769.25,
+      "price": 35.22,
+      "discount": 2,
+      "image": "/image41.png"
+    },
+    {
+      "id": 15,
+      "name": "Omega",
+      "fullprice": 480.41,
+      "price": 17.95,
+      "discount": 64,
+      "image": "/image42.png"
+    },
+    {
+      "id": 16,
+      "name": "Seiko",
+      "fullprice": 845.98,
+      "price": 947.7,
+      "discount": 24,
+      "image": "/image9.png"
+    },
+    {
+      "id": 17,
+      "name": "Citizen",
+      "fullprice": 299.67,
+      "price": 890.1,
+      "discount": 38,
+      "image": "/image9.png"
+    },
+    {
+      "id": 18,
+      "name": "Omega",
+      "fullprice": 988.2,
+      "price": 804.98,
+      "discount": 43,
+      "image": "/image41.png"
+    },
+    {
+      "id": 19,
+      "name": "Omega",
+      "fullprice": 609.53,
+      "price": 259.52,
+      "discount": 92,
+      "image": "/image42.png"
+    },
+    {
+      "id": 20,
+      "name": "Citizen",
+      "fullprice": 977.21,
+      "price": 46.78,
+      "discount": 75,
+      "image": "/image9.png"
+    },
+    {
+      "id": 21,
+      "name": "Timex",
+      "fullprice": 724.75,
+      "price": 393.48,
+      "discount": 27,
+      "image": "/image41.png"
+    },
+    {
+      "id": 22,
+      "name": "Casio",
+      "fullprice": 857.51,
+      "price": 874.34,
+      "discount": 53,
+      "image": "https://accuweather.com/magnis/dis/parturient/montes/nascetur.aspx?parturient=orci&montes=nullam&nascetur=molestie&ridiculus=nibh&mus=in&etiam=lectus&vel=pellentesque&augue=at&vestibulum=nulla&rutrum=suspendisse&rutrum=potenti&neque=cras&aenean=in&auctor=purus&gravida=eu&sem=magna&praesent=vulputate&id=luctus&massa=cum&id=sociis&nisl=natoque&venenatis=penatibus&lacinia=et&aenean=magnis&sit=dis&amet=parturient&justo=montes&morbi=nascetur&ut=ridiculus&odio=mus&cras=vivamus&mi=vestibulum&pede=sagittis&malesuada=sapien&in=cum&imperdiet=sociis&et=natoque&commodo=penatibus&vulputate=et&justo=magnis&in=dis&blandit=parturient&ultrices=montes&enim=nascetur&lorem=ridiculus&ipsum=mus&dolor=etiam&sit=vel&amet=augue&consectetuer=vestibulum&adipiscing=rutrum&elit=rutrum&proin=neque&interdum=aenean&mauris=auctor&non=gravida&ligula=sem&pellentesque=praesent&ultrices=id&phasellus=massa&id=id&sapien=nisl&in=venenatis&sapien=lacinia&iaculis=aenean&congue=sit"
+    },
+    {
+      "id": 23,
+      "name": "Timex",
+      "fullprice": 415.47,
+      "price": 780.93,
+      "discount": 10,
+      "image": "http://pcworld.com/neque/aenean/auctor/gravida.html?ultrices=id"
+    },
+    {
+      "id": 24,
+      "name": "Swatch",
+      "fullprice": 511.82,
+      "price": 814.22,
+      "discount": 64,
+      "image": "http://nih.gov/vehicula/consequat/morbi/a/ipsum/integer/a.jpg?id=augue&sapien=luctus&in=tincidunt&sapien=nulla&iaculis=mollis&congue=molestie&vivamus=lorem&metus=quisque&arcu=ut&adipiscing=erat&molestie=curabitur&hendrerit=gravida&at=nisi&vulputate=at&vitae=nibh&nisl=in&aenean=hac&lectus=habitasse&pellentesque=platea&eget=dictumst&nunc=aliquam&donec=augue&quis=quam&orci=sollicitudin&eget=vitae&orci=consectetuer&vehicula=eget&condimentum=rutrum&curabitur=at&in=lorem&libero=integer&ut=tincidunt&massa=ante&volutpat=vel&convallis=ipsum&morbi=praesent&odio=blandit&odio=lacinia&elementum=erat&eu=vestibulum&interdum=sed&eu=magna&tincidunt=at&in=nunc&leo=commodo&maecenas=placerat&pulvinar=praesent&lobortis=blandit&est=nam&phasellus=nulla&sit=integer&amet=pede&erat=justo&nulla=lacinia&tempus=eget&vivamus=tincidunt&in=eget&felis=tempus&eu=vel&sapien=pede&cursus=morbi&vestibulum=porttitor&proin=lorem&eu=id&mi=ligula&nulla=suspendisse&ac=ornare&enim=consequat&in=lectus&tempor=in"
+    },
+    {
+      "id": 25,
+      "name": "Timex",
+      "fullprice": 932.13,
+      "price": 35.73,
+      "discount": 15,
+      "image": "http://vkontakte.ru/scelerisque/quam.json?nullam=tristique&orci=fusce&pede=congue&venenatis=diam&non=id&sodales=ornare&sed=imperdiet&tincidunt=sapien&eu=urna&felis=pretium&fusce=nisl&posuere=ut&felis=volutpat&sed=sapien&lacus=arcu&morbi=sed"
+    },
+    {
+      "id": 26,
+      "name": "Citizen",
+      "fullprice": 708.83,
+      "price": 207.09,
+      "discount": 6,
+      "image": "https://163.com/sit/amet.json?at=potenti&vulputate=cras&vitae=in&nisl=purus&aenean=eu&lectus=magna&pellentesque=vulputate&eget=luctus&nunc=cum&donec=sociis&quis=natoque&orci=penatibus&eget=et&orci=magnis&vehicula=dis&condimentum=parturient&curabitur=montes&in=nascetur&libero=ridiculus&ut=mus&massa=vivamus&volutpat=vestibulum&convallis=sagittis&morbi=sapien&odio=cum&odio=sociis&elementum=natoque&eu=penatibus&interdum=et&eu=magnis&tincidunt=dis&in=parturient&leo=montes&maecenas=nascetur&pulvinar=ridiculus&lobortis=mus&est=etiam&phasellus=vel&sit=augue&amet=vestibulum&erat=rutrum&nulla=rutrum&tempus=neque&vivamus=aenean&in=auctor&felis=gravida&eu=sem&sapien=praesent&cursus=id&vestibulum=massa&proin=id&eu=nisl&mi=venenatis&nulla=lacinia&ac=aenean&enim=sit&in=amet&tempor=justo&turpis=morbi&nec=ut&euismod=odio&scelerisque=cras&quam=mi&turpis=pede&adipiscing=malesuada&lorem=in&vitae=imperdiet&mattis=et&nibh=commodo&ligula=vulputate&nec=justo&sem=in&duis=blandit&aliquam=ultrices&convallis=enim&nunc=lorem&proin=ipsum&at=dolor&turpis=sit"
+    },
+    {
+      "id": 27,
+      "name": "Citizen",
+      "fullprice": 696.91,
+      "price": 607.43,
+      "discount": 9,
+      "image": "http://weather.com/morbi/non/quam/nec/dui/luctus/rutrum.aspx?ut=pede&tellus=morbi&nulla=porttitor&ut=lorem&erat=id&id=ligula&mauris=suspendisse&vulputate=ornare&elementum=consequat&nullam=lectus&varius=in&nulla=est&facilisi=risus&cras=auctor&non=sed&velit=tristique&nec=in&nisi=tempus&vulputate=sit&nonummy=amet&maecenas=sem&tincidunt=fusce&lacus=consequat&at=nulla&velit=nisl&vivamus=nunc&vel=nisl&nulla=duis&eget=bibendum&eros=felis&elementum=sed&pellentesque=interdum&quisque=venenatis&porta=turpis&volutpat=enim&erat=blandit&quisque=mi&erat=in&eros=porttitor&viverra=pede&eget=justo&congue=eu&eget=massa&semper=donec&rutrum=dapibus&nulla=duis&nunc=at&purus=velit&phasellus=eu&in=est&felis=congue&donec=elementum&semper=in&sapien=hac&a=habitasse&libero=platea&nam=dictumst&dui=morbi"
+    },
+    {
+      "id": 28,
+      "name": "Swatch",
+      "fullprice": 572.85,
+      "price": 672.58,
+      "discount": 74,
+      "image": "http://auda.org.au/in/imperdiet/et/commodo/vulputate/justo/in.html?et=placerat&ultrices=praesent&posuere=blandit&cubilia=nam&curae=nulla&nulla=integer&dapibus=pede&dolor=justo&vel=lacinia&est=eget&donec=tincidunt&odio=eget&justo=tempus&sollicitudin=vel&ut=pede&suscipit=morbi&a=porttitor&feugiat=lorem&et=id&eros=ligula&vestibulum=suspendisse&ac=ornare&est=consequat&lacinia=lectus&nisi=in&venenatis=est&tristique=risus&fusce=auctor&congue=sed&diam=tristique&id=in&ornare=tempus&imperdiet=sit&sapien=amet&urna=sem&pretium=fusce&nisl=consequat&ut=nulla&volutpat=nisl&sapien=nunc&arcu=nisl&sed=duis&augue=bibendum&aliquam=felis&erat=sed&volutpat=interdum&in=venenatis&congue=turpis&etiam=enim"
+    },
+    {
+      "id": 29,
+      "name": "Omega",
+      "fullprice": 549.79,
+      "price": 469.6,
+      "discount": 71,
+      "image": "https://nifty.com/eu/sapien/cursus/vestibulum/proin.html?mauris=nulla&enim=dapibus&leo=dolor&rhoncus=vel&sed=est&vestibulum=donec&sit=odio&amet=justo&cursus=sollicitudin&id=ut"
+    },
+    {
+      "id": 30,
+      "name": "Swatch",
+      "fullprice": 332.83,
+      "price": 605.06,
+      "discount": 48,
+      "image": "https://over-blog.com/tempus/semper/est/quam/pharetra/magna/ac.json?eu=tempus&tincidunt=semper&in=est&leo=quam"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "email": "wasikamin4@gmail.com",
+      "password": "123"
+    },
+    {
+      "email": "wasikamin2@gmail.com",
+      "name": "wasik amin",
+      "password": "password1",
+      "id": 1
+    },
+    {
+      "email": "wasikamin3@gmail.com",
+      "name": "wasik amin",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "email": "wasik.",
+      "name": "Mohammad wasik amin",
+      "password": "",
+      "id": 3
+    },
+    {
+      "email": "wasikamin6@gmail.com",
+      "name": "Mohammad Wasik Amin",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "email": "acong@mail.com",
+      "name": "acong",
+      "password": "123",
+      "id": 5
+    }
+  ]
+}

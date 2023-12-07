@@ -2,12 +2,12 @@ export default function SecondaryCard({
   title,
   price,
   disc,
-  fullPrice,
+  fullprice,
   image,
 }: {
   title: string;
   disc: string;
-  fullPrice: string;
+  fullprice: string;
   image: string;
   price: string;
 }): JSX.Element {
@@ -22,7 +22,7 @@ export default function SecondaryCard({
           <h2 className="text-2xl mb-1 ">{title}</h2>
           <p className="mb-1 text-[#777]">{disc}% Off</p>
           <p className="mb-1 line-through decoration-[#D93F3F] text-[#777]">
-            Rp {fullPrice}
+            Rp {fullprice}
           </p>
           <p className="mb-3 text-xl">Rp {price}</p>
         </div>
